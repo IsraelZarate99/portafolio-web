@@ -1,0 +1,49 @@
+
+/* ================= GENERAL ================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ================= PROYECTOS ================= */
+
+.proyecto-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .15) !important; /*ayuda*/
+}
+
+/* ================= IMAGENES ================= */
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ================= TECNOLOGIAS ================= */
+
+#tecnologias .card {
+  transition: transform 0.3s ease;
+}
+
+#tecnologias .card:hover {
+  transform: translateY(-5px);
+}
+
+/* ================= PERFIL ================= */
+
+#inicio img {
+  transition: transform 0.3s ease;
+}
+
+#inicio img:hover {
+  transform: scale(1.03);
+}

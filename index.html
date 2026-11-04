@@ -1,13 +1,470 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portafolio</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Portafolio de Israel Zarate, desarrollador Backend Java especializado en Spring y APIs REST.">
+  <title>Israel Zarate | Java Backend Developer</title>
+  <!-- Devicon no la instale xd -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">
+        Israel<span class="text-info">.dev</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tecnologias">Tecnologías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificaciones">Certificaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+
+  <header id="inicio" class="bg-dark text-white py-5">
+    <div class="container py-lg-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-center text-lg-start">
+          <span class="badge bg-info text-dark mb-3 p-2">
+            JAVA BACKEND DEVELOPER
+          </span>
+          <h1 class="display-3 fw-bold mb-3">
+            Hola, soy
+            <span class="text-info">Israel Zarate.</span>
+          </h1>
+          <h2 class="h3 text-white-50 mb-4">
+            Desarrollador Backend Java
+          </h2>
+          <p class="lead text-white-50 mb-4">
+            Desarrollo aplicaciones backend utilizando Java y Spring.
+            Me interesa la construcción de APIs REST, la integración
+            de bases de datos y el desarrollo de soluciones orientadas
+            a resolver problemas reales.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+            <a href="#proyectos" class="btn btn-info btn-lg fw-bold">
+              <i class="bi bi-code-slash me-2"></i>
+              Ver proyectos
+            </a>
+            <a href="https://github.com/IsraelZarate99" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline-light btn-lg">
+              <i class="bi bi-github me-2"></i>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/israel-z%C3%A1rate-torres-336140375/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-outline-light btn-lg">
+              <i class="bi bi-linkedin me-2"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center mt-5 mt-lg-0">
+          <img src="https://i.pinimg.com/736x/64/3b/95/643b95581ea8cc5089892f7126d464bc.jpg"
+            alt="Fotografía Israel Zarate" class="img-fluid rounded-circle shadow-lg border border-4 border-info"
+            style="width: 280px; height: 280px; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= SOBRE MI ================= -->
+  <section id="sobre-mi" class="py-5">
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 text-center">
+          <h2 class="fw-bold mb-4">
+            Sobre mí
+          </h2>
+          <p class="text-secondary fs-5">
+            Soy egresado de Ingeniería en Tecnologías de la Información
+            y desarrollador de software enfocado en el ecosistema Java.
+          </p>
+          <p class="text-secondary">
+            Me interesa desarrollar soluciones backend, trabajar con
+            bases de datos relacionales e integrar diferentes servicios
+            mediante APIs REST. Disfruto aprender nuevas tecnologías,
+            resolver problemas y mejorar continuamente mis habilidades
+            de programación.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+            <span class="badge bg-light text-dark border p-2">
+              <i class="bi bi-geo-alt me-1"></i>
+              México
+            </span>
+            <span class="badge bg-light text-dark border p-2">
+              <i class="bi bi-code-square me-1"></i>
+              Desarrollo Backend
+            </span>
+            <span class="badge bg-light text-dark border p-2">
+              <i class="bi bi-database me-1"></i>
+              Bases de datos
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROYECTOS ================= -->
+  <section id="proyectos" class="bg-light py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Proyectos destacados</h2>
+        <p class="text-secondary">
+          Algunos proyectos en los que he trabajado.
+        </p>
+      </div>
+      <div class="row g-4">
+        <!-- PROYECTO 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm proyecto-card">
+            <img src="https://th.bing.com/th/id/OIP.noE7JGFXybVq2Ktg-OwAQwHaIg?w=195&h=225&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top"
+              alt="Proyecto CoffeeMod">
+            <div class="card-body d-flex flex-column">
+              <span class="badge bg-info text-dark align-self-start mb-2">
+                E-commerce
+              </span>
+              <h5 class="card-title fw-bold">
+                CoffeeMod
+              </h5>
+              <p class="card-text text-secondary">
+                Plataforma de comercio electrónico especializada
+                en café de especialidad y equipos de preparación.
+              </p>
+              <h6 class="fw-bold mt-2">
+                Características
+              </h6>
+              <ul class="text-secondary small">
+                <li>Catálogo de productos.</li>
+                <li>Gestión del carrito de compras.</li>
+                <li>Integración frontend y backend mediante API REST.</li>
+                <li>Persistencia de información en MySQL.</li>
+              </ul>
+              <h6 class="fw-bold mt-2">
+                Tecnologías
+              </h6>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge bg-dark">Java</span>
+                <span class="badge bg-dark">Spring Boot</span>
+                <span class="badge bg-dark">MySQL</span>
+                <span class="badge bg-dark">JavaScript</span>
+                <span class="badge bg-dark">Bootstrap</span>
+              </div>
+              <a href="https://github.com/IsraelZarate99" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-dark mt-auto">
+                <i class="bi bi-github me-2"></i>
+                Ver repositorio
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROYECTO 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm proyecto-card">
+            <img src="https://th.bing.com/th/id/OIP.noE7JGFXybVq2Ktg-OwAQwHaIg?w=195&h=225&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top"
+              alt="Sistema El Brujo">
+            <div class="card-body d-flex flex-column">
+              <span class="badge bg-primary align-self-start mb-2">
+                Aplicación de escritorio
+              </span>
+              <h5 class="card-title fw-bold">
+                Sistema El Brujo
+              </h5>
+              <p class="card-text text-secondary">
+                Aplicación de escritorio desarrollada para
+                gestionar las operaciones de una papelería.
+              </p>
+              <h6 class="fw-bold mt-2">
+                Características
+              </h6>
+              <ul class="text-secondary small">
+                <li>Control de ventas.</li>
+                <li>Gestión de inventario.</li>
+                <li>Administración de productos.</li>
+                <li>Conexión con base de datos.</li>
+              </ul>
+              <h6 class="fw-bold mt-2">
+                Tecnologías
+              </h6>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge bg-dark">Java</span>
+                <span class="badge bg-dark">Swing</span>
+                <span class="badge bg-dark">PostgreSQL</span>
+              </div>
+              <a href="https://github.com/IsraelZarate99" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-dark mt-auto">
+                <i class="bi bi-github me-2"></i>
+                Ver repositorio
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- PROYECTO 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm proyecto-card">
+            <img src="https://th.bing.com/th/id/OIP.noE7JGFXybVq2Ktg-OwAQwHaIg?w=195&h=225&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top"
+              alt="Proyecto Spring Boot MVC">
+            <div class="card-body d-flex flex-column">
+              <span class="badge bg-success align-self-start mb-2">
+                Aplicación Web
+              </span>
+              <h5 class="card-title fw-bold">
+                Spring Boot MVC
+              </h5>
+              <p class="card-text text-secondary">
+                Aplicación web desarrollada con Spring Boot
+                siguiendo el patrón de arquitectura MVC.
+              </p>
+              <h6 class="fw-bold mt-2">
+                Características
+              </h6>
+              <ul class="text-secondary small">
+                <li>Separación de responsabilidades MVC.</li>
+                <li>Gestión de solicitudes HTTP.</li>
+                <li>Integración con base de datos.</li>
+                <li>Renderizado de vistas.</li>
+              </ul>
+              <h6 class="fw-bold mt-2">
+                Tecnologías
+              </h6>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge bg-dark">Java</span>
+                <span class="badge bg-dark">Spring Boot</span>
+                <span class="badge bg-dark">Spring MVC</span>
+                <span class="badge bg-dark">SQL</span>
+              </div>
+              <a href="https://github.com/IsraelZarate99" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline-dark mt-auto">
+                <i class="bi bi-github me-2"></i>
+                Ver repositorio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= TECNOLOGIAS ================= -->
+  <section id="tecnologias" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Tecnologías y herramientas</h2>
+        <p class="text-secondary">
+          Tecnologías con las que he trabajado.
+        </p>
+      </div>
+      <div class="row g-4">
+        <!-- BACKEND -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-server text-info me-2"></i>
+              Backend
+            </h5>
+            <ul class="list-unstyled text-secondary">
+              <li class="mb-3">
+                <i class="devicon-java-plain colored me-2"></i>
+                Java
+              </li>
+              <li class="mb-3">
+                <i class="devicon-spring-original colored me-2"></i>
+                Spring Framework
+              </li>
+              <li class="mb-3">
+                <i class="devicon-spring-original colored me-2"></i>
+                Spring Boot
+              </li>
+              <li class="mb-3">
+                <i class="devicon-hibernate-plain colored me-2"></i>
+                Hibernate / JPA
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- DATABASE -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-database text-info me-2"></i>
+              Bases de datos
+            </h5>
+            <ul class="list-unstyled text-secondary">
+              <li class="mb-3">
+                <i class="devicon-mysql-plain colored me-2"></i>
+                MySQL
+              </li>
+              <li class="mb-3">
+                <i class="devicon-postgresql-plain colored me-2"></i>
+                PostgreSQL
+              </li>
+              <li class="mb-3">
+                <i class="bi bi-table me-2"></i>
+                SQL
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- FRONTEND -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-window text-info me-2"></i>
+              Frontend
+            </h5>
+            <ul class="list-unstyled text-secondary">
+              <li class="mb-3">
+                <i class="devicon-html5-plain colored me-2"></i>
+                HTML5
+              </li>
+              <li class="mb-3">
+                <i class="devicon-css3-plain colored me-2"></i>
+                CSS3
+              </li>
+              <li class="mb-3">
+                <i class="devicon-javascript-plain colored me-2"></i>
+                JavaScript
+              </li>
+              <li class="mb-3">
+                <i class="devicon-bootstrap-plain colored me-2"></i>
+                Bootstrap
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- TOOLS -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-tools text-info me-2"></i>
+              Herramientas
+            </h5>
+            <ul class="list-unstyled text-secondary">
+              <li class="mb-3">
+                <i class="devicon-git-plain colored me-2"></i>
+                Git
+              </li>
+              <li class="mb-3">
+                <i class="devicon-github-original colored me-2"></i>
+                GitHub
+              </li>
+              <li class="mb-3">
+                <i class="devicon-apache-plain colored me-2"></i>
+                Maven
+              </li>
+              <li class="mb-3">
+                <i class="devicon-linux-plain colored me-2"></i>
+                Linux
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= CERTIFICACIONES ================= -->
+  <section id="certificaciones" class="bg-light py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Certificaciones</h2>
+        <p class="text-secondary">
+          Formación complementaria y conocimientos técnicos.
+        </p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <i class="bi bi-diagram-3 display-3 text-primary mb-3"></i>
+              <h5 class="fw-bold">
+                CCNA: Switching, Routing & Wireless
+              </h5>
+              <p class="text-secondary mb-2">
+                Cisco Networking Academy
+              </p>
+              <span class="badge bg-light text-dark border">
+                2025
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body text-center p-4">
+              <i class="bi bi-router display-3 text-primary mb-3"></i>
+              <h5 class="fw-bold">
+                HPE Aruba Campus Access
+              </h5>
+              <p class="text-secondary mb-2">
+                Hewlett Packard Enterprise
+              </p>
+              <span class="badge bg-light text-dark border">
+                2026
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================= CONTACTO ================= -->
+  <footer id="contacto" class="bg-dark text-white py-5">
+    <div class="container text-center py-4">
+      <h2 class="fw-bold mb-3">
+        ¿Trabajamos juntos?
+      </h2>
+      <p class="text-white-50 mb-4">
+        Estoy abierto a nuevas oportunidades profesionales,
+        colaboraciones y proyectos de desarrollo.
+      </p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="mailto:isarelzaratetorres@gmail.com" class="btn btn-info fw-bold">
+          <i class="bi bi-envelope me-2"></i>
+          Envíame un correo
+        </a>
+        <a href="https://github.com/IsraelZarate99" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
+          <i class="bi bi-github me-2"></i>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/israel-z%C3%A1rate-torres-336140375/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
+          <i class="bi bi-linkedin me-2"></i>
+          LinkedIn
+        </a>
+      </div>
+      <hr class="border-secondary my-5">
+      <p class="text-white-50 small mb-0">
+        © 2026 Israel Zarate.
+      </p>
+    </div>
+  </footer>
+  </script>
+  <!-- JavaScript De Vite -->
+  <script type="module" src="./src/index.js"></script>
+</body>
 </html>
