@@ -1,6 +1,11 @@
 
 /* ================= GENERAL ================= */
-
+.project-img {
+  width: 100%;
+  height: 200px; /* Ajusta esta altura a tu gusto (ej. 180px - 220px) */
+  object-fit: cover; /* Recorta los bordes sobrantes sin deformar la imagen */
+  object-position: center; /* Centra el encuadre */
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
